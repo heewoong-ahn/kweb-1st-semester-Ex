@@ -1,0 +1,31 @@
+.title {
+  font-size: 20px;
+  font-weight: 800;
+}
+.link {
+  font-size: 15px;
+}
+.qs {
+  font-size: 15px;
+  font-weight: bold;
+}
+/* .~~는 class를 의미 */
+#article-list {
+  padding: 30;
+  list-style-type: none;
+}
+/* #~~는 ID를 의미  */
+#article-list > li {
+  font-size: 30px;
+}
+
+.user {
+  font-size: 15px;
+  font-weight: 800;
+  color: blueviolet;
+}
+
+#gender {
+  color: aqua;
+  font-size: 50px;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link type="text/css" rel="stylesheet" href="./Ex1Style.css" />
+  </head>
+  <body>
+    <h1 class="title">KWEB Survey Page</h1>
+    <div>
+      <img
+        src="https://i.imgur.com/hSSFVSw.png"
+        alt="KWEB Logo"
+        id="KWEB Logo"
+      />
+    </div>
+    <span class="link">
+      <a href="https://kwebofficial.com/" title="KWEB Home" target="_blank">KWEB Homepage<br/><br/></a>
+    </span>
+    <div class="qs">1. Write your name.<br/><br/></div>
+    <input type="text" name="username" />
+    <br/><br/>
+    <div class="qs">2. Write your studnet number.<br/><br/></div>
+    <input type="number" name="studentnumber" />
+    <br/><br/>
+    <div class="qs">3. Select your member level.<br/><br/></div>
+    <label><input type="radio" name="memberlevel" value="admin">Admin</label>
+    <label><input type="radio" name="memberlevel" value="intern">Intern</label>
+    <label><input type="radio" name="memberlevel" value="qualified">Qualified</label>
+    <br/><br/>
+    <div class="qs">4. Select all fields you are interested in.<br/><br/></div>
+    <label><input type="checkbox" name="fields" value="frontend">Front-end</label>
+    <label><input type="checkbox" name="fields" value="backend">Back-end</label>
+    <label><input type="checkbox" name="fields" value="webcrawling">Web crawling</label>
+    <label><input type="checkbox" name="fields" value="websecurity">Web security</label>
+    <label><input type="checkbox" name="fields" value="etcetera">Etcetera <input type="text" name="fields"></label>
+    <!-- etc 누르면 칠 수 있는 칸 나오도록 어떻게 구현? -->
+    <br/><br/>
+    <div class="qs">5. Give us your overall evaluation and feedback about the previous study.<br/><br/></div>
+    <textarea
+        cols="80"
+        rows="20"
+        name="opinion"
+      ></textarea>
+      <button type="submit">Submit your answers</button>
+</html>
