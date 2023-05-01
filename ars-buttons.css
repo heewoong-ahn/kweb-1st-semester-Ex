@@ -1,0 +1,25 @@
+.numbers {
+  flex-direction: row;
+  margin-left: 50px;
+  margin-top: 25px;
+  /* width: 400px; */
+  /* background-color: green; */
+}
+.number {
+  width: 50px;
+  height: 50px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 30px;
+  margin-left: 20px;
+  background-color: rgb(233, 132, 132);
+  display: inline-block;
+  text-align: center;
+  line-height: 50px; /* text 세로 정렬*/
+  /* vertical-align: center; */
+  /* text-align: justify; */
+  /* justify-content: center; */
+}
+.footer {
+  margin-top: 20px;
+}

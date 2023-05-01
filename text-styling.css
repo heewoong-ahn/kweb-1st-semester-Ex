@@ -1,0 +1,20 @@
+h1 {
+  /* border: 3px solid black; */
+  text-align: center;
+}
+.chapter {
+  margin-left: 100px;
+}
+.horizontal-lists {
+  margin-left: 100px;
+}
+.chapter-name {
+  font-weight: 800;
+}
+.chapter .horizontal-lists {
+  color: blue;
+  margin-left: 0px;
+}
+#current-chapter .chapter-name {
+  color: red;
+}

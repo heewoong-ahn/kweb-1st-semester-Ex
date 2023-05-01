@@ -1,0 +1,27 @@
+#scroll-button {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  border: 3px solid;
+  border-color: darkblue;
+  border-radius: 20px;
+  background-color: darkblue;
+}
+
+#up {
+  /* padding: 0px 7px 0px; */
+  /* top, right, bottom, left :CW  */
+  padding: 0px 2px 1px 2px;
+  color: white;
+}
+
+#down {
+  /* background-color: aqua; */
+  margin-top: 2px;
+  padding: 0px 2px 3px 2px;
+  border-top: 1px solid white;
+  /* padding-left: 7px; */
+  /* margin-top: 10px; */
+  /* padding: 0px 7px; */
+  color: white;
+}
